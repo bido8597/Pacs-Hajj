@@ -9,7 +9,7 @@ session_start();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <meta charset="UTF-8">
-    <title>Simple and light sign up form</title>
+   <title>Hajj_PACS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -24,7 +24,7 @@ session_start();
 
     <div id='cssmenu'>
         <ul>
-            <li class=''><a href='#'><?php echo $_SESSION['Info']['Name'] ?></a></li>
+            <li class=''><a href='#'  style="padding-top: 20%;"><?php echo $_SESSION['Info']['Name'] ?></a></li>
             <li style="float: right"><a href="../html-link.htm"><img src="rfid-chip.svg" style="width:40px; height:40px" title="White flower" alt="Flower"></a></li>
         </ul>
     </div>
@@ -52,7 +52,7 @@ session_start();
                 <ul class="nav nav-pills nav-stacked" style="float: right;margin-right: 0%;">
                     <li class="botBord" style="margin-top: 10"><a href="Withdraw.php">سحب</a></li>
                     <li class="botBord" style="margin-top: 10"><a href="Deposit.php">ايداع</a></li>
-                    <li class="botBord"><a href="#section2">معلومات الحاج</a></li>
+                    <li class="botBord"><a href="AccountInfo.php">معلومات الحاج</a></li>
                 </ul>
                 <br>
             </div>

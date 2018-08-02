@@ -5,7 +5,8 @@
 }
 
 input {
-    text-align: right
+    text-align: right;
+
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     background: #f7f7f7;
     height: 100vh;
 }
+
 
 .SecBody {
     font-family: "Roboto";

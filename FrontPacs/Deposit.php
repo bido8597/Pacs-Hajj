@@ -25,8 +25,8 @@ session_start();
 
     <div id='cssmenu'>
         <ul>
-            <li class=''>
-                <a href='#'>
+            <li class='Li_Lat'>
+                <a href='#'  style="padding-top: 20%;">
                     <?php echo $_SESSION['Info']['Name'] ?>
                 </a>
             </li>
@@ -60,7 +60,7 @@ session_start();
                 <ul class="nav nav-pills nav-stacked" style="float: right;margin-right: 0%;">
                     <li class="botBord" style="margin-top: 10"><a href="Withdraw.php">سحب</a></li>
                     <li class="botBord" style="margin-top: 10"><a href="Deposit.php">ايداع</a></li>
-                    <li class="botBord"><a href="#section2">معلومات الحاج</a></li>
+                    <li class="botBord"><a href="AccountInfo.php">معلومات الحاج</a></li>
                 </ul>
                 <br>
             </div>
