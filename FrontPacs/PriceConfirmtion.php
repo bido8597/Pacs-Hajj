@@ -1,4 +1,8 @@
 <?php
+session_start();
+?>
+<?php
+
 
 
 require_once('mysqli_connect.php');
@@ -26,6 +30,7 @@ if(isset($_POST['submit']))
         $data=mysqli_fetch_assoc($res);
         $query="UPDATE `haijer` SET `Balance`= `Balance`-".$_POST['price']." WHERE 1";
         $res= mysqli_query($dbc,$query);
+        $_SESSION['Info']['Balance']=$_SESSION['Info']['Balance']-$_POST['price'];
         header("location:RFIDAUTH.php?Insuc=".$data['total']);
 
         echo 'Product Entered';
