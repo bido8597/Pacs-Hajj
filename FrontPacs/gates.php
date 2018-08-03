@@ -80,7 +80,7 @@ session_start();
                 <ul class="nav nav-pills nav-stacked" style="float: right;margin-right: 0%;">
                     <li class="botBord" style="margin-top: 10"><a href="Withdraw.php">سحب</a></li>
                     <li class="botBord" style="margin-top: 10"><a href="Deposit.php">ايداع</a></li>
-                    <li class="botBord"><a href="ِAccountInfo.php">معلومات الحاج</a></li>
+                    <li class="botBord"><a href= "AccountInfo.php">معلومات الحاج</a></li>
                     <li class="botBord" style="margin-top: 10"><a href="gates.php">تتبع الافواج</a></li>
                 </ul>
                 <br>
