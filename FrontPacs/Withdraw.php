@@ -42,7 +42,7 @@ session_start();
                             <input type="text" placeholder="سحب" class="homeInput" name="Mwithdraw"/>
                             <span style="font-size: 25px">: سحب المبلغ  </span>
                             <br>
-                            <input class="btndp" type="submit" name="withdraw" value="withdraw">
+                            <input class="btndp" type="submit" name="withdraw" value="سحب">
                         </div>
                     </div>
 

@@ -10,7 +10,7 @@ require_once('mysqli_connect.php');
 $SignupErr="";
 $RFID=6156161;
 $query ="SELECT * FROM `haijer` WHERE `RFID`=".$RFID;
-
+//$q2 = "SELECT count(*) FROM 'haijer WHERE ";
 $res=@mysqli_query($dbc,$query);
 if($res){
 

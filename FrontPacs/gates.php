@@ -54,21 +54,21 @@ session_start();
                                 echo '<tr class="danger"> <td>'.$row['Reg_Num']."</td>
                                 <td>".$row['Last_Gate_Entered']."</td>
                                 <td>".$row['Date_Latest_Entry']."</td>
-                                <td>".$row['Reg_Status']."</td></tr>";
+                                <td> لم يتم الدخول</td></tr>";
                             }
                             else if($row['Reg_Status']== 2)
                             {
                                 echo '<tr class="success"> <td>'.$row['Reg_Num']."</td>
                                 <td>".$row['Last_Gate_Entered']."</td>
                                 <td>".$row['Date_Latest_Entry']."</td>
-                                <td>".$row['Reg_Status']."</td></tr>";
+                                <td>تم الدخول بنجاح</td></tr>";
                             }
                                else if($row['Reg_Status']== 3)
                             {
                                 echo '<tr class="warning"> <td>'.$row['Reg_Num']."</td>
                                 <td>".$row['Last_Gate_Entered']."</td>
                                 <td>".$row['Date_Latest_Entry']."</td>
-                                <td>".$row['Reg_Status']."</td></tr>";
+                                <td>على وشك الدخول</td></tr>";
                             }
                         }
 
@@ -80,7 +80,7 @@ session_start();
                 <ul class="nav nav-pills nav-stacked" style="float: right;margin-right: 0%;">
                     <li class="botBord" style="margin-top: 10"><a href="Withdraw.php">سحب</a></li>
                     <li class="botBord" style="margin-top: 10"><a href="Deposit.php">ايداع</a></li>
-                    <li class="botBord"><a href="#section2">معلومات الحاج</a></li>
+                    <li class="botBord"><a href="ِAccountInfo.php">معلومات الحاج</a></li>
                     <li class="botBord" style="margin-top: 10"><a href="gates.php">تتبع الافواج</a></li>
                 </ul>
                 <br>

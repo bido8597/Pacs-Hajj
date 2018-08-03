@@ -49,7 +49,7 @@ session_start();
                             <span style="font-size: 25px">: ايداع المبلغ  </span>
                             <br>
 
-                            <input class="btndp" type="submit" name="Deposit" value="Deposit">
+                            <input class="btndp" type="submit" name="Deposit" value="ايداع">
                         </div>
                     </div>
 
